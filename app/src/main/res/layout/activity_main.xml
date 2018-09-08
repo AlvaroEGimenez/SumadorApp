@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_centerVertical="true"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Textviev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/botonSuma"
+        android:text="SUMA"
+        android:textSize="40sp"
+        android:layout_width="180sp"
+        android:layout_height="70sp"/>
+    <Button
+        android:id="@+id/botonResta"
+        android:text="resta"
+        android:textSize="40sp"
+        android:layout_width="180sp"
+        android:layout_height="70sp" />
+
+</LinearLayout>
